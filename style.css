@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+    padding: 32px 24px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 24px;
+    color: #333;
+}
+#weather p {
+    margin: 8px 0;
+    font-size: 1.2em;
+}
+#refresh {
+    margin-top: 20px;
+    padding: 10px 24px;
+    background: #74ebd5;
+    border: none;
+    border-radius: 6px;
+    color: #333;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#refresh:hover {
+    background: #ACB6E5;
+}
